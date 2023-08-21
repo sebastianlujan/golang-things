@@ -132,6 +132,4 @@ func testMessageToSend(numberList, msgList []string) {
 	for _, msg := range messages {
 		fmt.Printf("%s => %s \n", msg.Phone, msg.Msg)
 	}
-
-
 }
